@@ -25,6 +25,9 @@ module.exports = {
         extensions: ['.jsx', '.js']
       }
     ],
-    'import/prefer-default-export': 'off'
+    'import/prefer-default-export': 'off',
+    'react/jsx-props-no-spreading': 'off',
+    'react/state-in-constructor': 'off',
+    'no-param-reassign': 'off',
   }
 };
