@@ -8,7 +8,7 @@ import Icon from 'react-native-vector-icons/MaterialIcons';
 import * as CartActions from '../../store/modules/cart/actions';
 
 import api from '../../services/api';
-import formatPrice from '../../util/format';
+import { formatPrice } from '../../util/format';
 
 import {
   Container,

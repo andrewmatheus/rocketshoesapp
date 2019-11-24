@@ -4,7 +4,7 @@ import colors from '../../styles/colors';
 import logo from '../../assets/images/logo.png';
 
 export const Wrapper = styled.SafeAreaView`
-  flex: 0;
+  display: flex;
   background: ${colors.dark};
   flex-direction: row;
 `;
@@ -15,6 +15,8 @@ export const Container = styled.View`
   justify-content: space-between;
   padding: 20px;
 `;
+
+export const TouchableHighlight = styled.TouchableOpacity``;
 
 export const Logo = styled.Image.attrs({
   source: logo,
